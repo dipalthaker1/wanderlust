@@ -1,0 +1,105 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wanderlust - Sign Up</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400;0,600;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="login_signup.css"> 
+        <link type="text/css" rel="stylesheet" href="navbar.css">
+        <script src="login_signup.js"></script>
+        
+    </head>
+
+    <body>
+        
+        
+        
+        <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <a href="HOMEPAGE.html" class="navbar-brand">Wanderlust</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#NavbarButton">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="NavbarButton">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="HOMEPAGE.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blogs.html" class="nav-link">BLOGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOGIN</a>
+                      </li>
+                </ul>
+            </div>
+            <form class="form-inline my-2 my-lg-0 mx-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-default n-button my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+        
+        <div style="padding-top: 200px; padding-bottom: 20px;">
+            <h2>Sign Up now to get your travelling experiences get started!</h2>
+            <div class="container" id="container" style="padding-top: 50px;">
+                <div class="form-container sign-up-container">
+                    
+                </div>
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1>Sign Up</h1>
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="number" placeholder="Age" required>
+                        <input type="email" placeholder="Email" required/>
+                        <input type="password" placeholder="Password" required/>
+                        <a href="#">Forgot your password?</a>
+                        <button> <a href="HOMEPAGE.html">Sign Up</a> </button>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>Welcome Back!</h1>
+                            <p>To keep connected with us please login with your personal info</p>
+                            <button class="ghost" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Hello, Traveller!</h1>
+                            <p>Enter your personal details and start journey with us</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+        <script>
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#mainNav");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+
+
+    </body>
+</html>
+
+
+

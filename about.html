@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400;0,600;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">    
+    <link type="text/css" rel="stylesheet" href="HOMEPAGE.css" />
+    <link type="text/css" rel="stylesheet" href="navbar.css" />
+
+    
+</head>
+
+<body>
+    
+
+    <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="HOMEPAGE.html" class="navbar-brand">Wanderlust</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#NavbarButton">
+          <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="NavbarButton">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="HOMEPAGE.html" class="nav-link">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="blogs.html" class="nav-link">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+            <form class="form-inline my-2 my-lg-0 mx-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-default n-button my-2 my-sm-0" type="submit">Search</button>
+            </form>
+      </nav>
+
+
+      <div class="heading">
+        <div style="position:absolute;left:0;top:0;right:0;bottom:0">
+          <div class="top">
+            <center>
+              <h3 style="position: relative; padding-bottom: 10px;">Wanderlust Travels</h3>
+              <h2 style="color: #b996a2; font-weight: 100; ">A place where your desire to travel is fulfilled</h2>
+              <h3 style="font-size: 50px; padding-bottom: 10px;">About Us</h3>
+              <h2 style="color: #b996a2; font-weight: 100; padding-inline: 200px;">“Travel is the main thing you purchase that makes you more extravagant”. We, at Wanderlust, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly. We have been moving excellent encounters for a considerable length of time through our cutting edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.</h2>
+              <h2 style="color: #b996a2; font-weight: 100; padding-inline: 200px; padding-top: 50px;">Fulfilled workers lead to fulfilled clients. We know the development and accomplishment of our organization relies on satisfying our customers needs each day. That is additionally our guarantee</h2>
+              <h2 style="color: #b996a2; font-weight: 100; padding-inline: 200px; padding-top: 50px;">We here at Wanderlust not only gives you an opportunity to read the wonderful blogs that our travellers were very thoughtful to share with us. The top viewed blogs can be seen here</h2>
+              <button class="btn btn-default n-button my-2 my-sm-0" style="border-top: 50px;"> <a href="blogs.html">Our Top Blogs</a> </button>
+            </center>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	<script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNav");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+  
+</body>
+
+</html>
